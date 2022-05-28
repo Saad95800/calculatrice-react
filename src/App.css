@@ -20,3 +20,35 @@
 .App-link {
   color: #09d3ac;
 }
+.calculator{
+  margin: 100px auto;
+}
+.button{
+  display: inline-block;
+  width: 40px;
+  height: 25px;
+  border: 1px solid #bcbcbc;
+  background-color: #efefef;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px 20px;
+}
+.button:hover{
+  background-color: #bcbcbc;
+}
+.block-button{
+  margin-top: -4px;
+}
+#text-line, #result-line{
+  height: 59px;
+  width: 325px;
+  border: 1px solid #bcbcbc;
+  margin: auto;
+  font-size: 2em;
+}
+#text-line{
+  border-bottom: 0px;
+}
+#result-line{
+  border-top: 0px;
+}
